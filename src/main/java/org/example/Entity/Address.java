@@ -24,5 +24,8 @@ public class Address {
     @Column(name = "ZIPCODE")
     private String zipCode;
 
+    @Column(name = "CITY")
+    private String city;
+
 
 }
