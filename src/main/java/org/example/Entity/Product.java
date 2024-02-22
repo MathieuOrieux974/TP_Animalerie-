@@ -19,4 +19,7 @@ public class Product {
         private Double price;
         @ManyToMany(mappedBy = "products")
         private List<PetStore> petStores;
+
+        @Enumerated(EnumType.STRING)
+        private ProdType type;
 }

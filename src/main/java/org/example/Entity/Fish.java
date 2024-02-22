@@ -10,6 +10,7 @@ import java.util.List;
     @Setter
 
     public class Fish extends Animal {
+        @Enumerated(EnumType.STRING)
         private FishLivEnv fishLivEnv;
 
 

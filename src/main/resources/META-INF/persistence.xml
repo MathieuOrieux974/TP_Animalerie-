@@ -10,6 +10,11 @@
         <class>org.example.Entity.Animal</class>
         <class>org.example.Entity.PetStore</class>
         <class>org.example.Entity.Product</class>
+        <class>org.example.Entity.ProdType</class>
+        <class>org.example.Entity.Fish</class>
+        <class>org.example.Entity.Cat</class>
+        <class>org.example.Entity.FishLivEnv</class>
+
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver" />
