@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Entity.Banque;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -9,7 +7,7 @@ import javax.persistence.Persistence;
 public class Main {
     public static void main(String[] args) {
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("banque");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("animalerie");
         EntityManager em = emf.createEntityManager();
 
 
